@@ -80,11 +80,11 @@ def Topic_0l():
     print("   1: Using semicolons at the end of statements is optional."); 
     print("   2. Completely unnecessary in Python. It may even be \"unpythonic\"?"); 
     print("   3. But it provides me with an organizational consistency I like that's compatible with other languages like C++ and Java."); 
-    print("   4. It is a personal choice."); print("You may, or may not wish to terminate your Python statements with a semicolon.");
-    print("   5. It also allows me to place multiple statements of code on a single line, as above. :-)"); 
+    print("   4. It is a personal choice."); print("      You may, or may not wish to terminate your Python statements with a semicolon.");
+    print("   5. Semicolons also allow me to place multiple statements of code on a single line, as in the line above. :-)"); 
     print("   6. Pythonistas may abhor this optional personal particular style.");
     print("   7. But there is never truly \"one way to do it\", is there?");
-    print ("  8. It seems like innovation comes by constantly questioning \"Is there another way?\" For better, or for worse.");
+    print("   8. Perhaps innovation comes by constantly questioning \"Is there another way?\" For better, or for worse.");
     
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
