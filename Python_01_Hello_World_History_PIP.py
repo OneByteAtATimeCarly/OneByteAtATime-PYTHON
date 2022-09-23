@@ -19,8 +19,8 @@
 #           Both are free IDEs and offer powerful features like autocomplete and step-by-step debugging that really help with coding and testing Python projects. 
 
 # Indentation: Unlike other languages such as C++, Java and PowerShell, which use curly braces to define blocks of code and scope, Python relies exclusively
-#              on INDENTATION for this. Get your indentations even a single whitespace off in a script with thousands of lines of code, and your application
-#              quickly becomes a tangle of spaghetti seething with syntax and logic errors. If you are new to Python and coming from other languages where
+#              on INDENTATION for this. Get your indentations even a single whitespace off in a script with thousands of lines of code? And your application
+#              quickly becomes a tangle of spaghetti seething with syntax and logic errors! If you are new to Python and coming from other languages where
 #              indentation is not as important, this takes some getting used to. If anything, it will force you to write neatly defined functions, classes,
 #              decision and repetition structures in your code. Programming with Python will do wonders for developers who have the bad habit of writing
 #              sloppy, poorly-indented code in other languages. :-)
