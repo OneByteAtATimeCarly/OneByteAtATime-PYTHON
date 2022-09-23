@@ -1,5 +1,5 @@
-# Scope: Scope within nested functions and using "nonlocal"
-
+# Title: Python Scope 3 - Scope within nested functions and using "nonlocal"
+# Author: C. S. Germany 01/15/2022
 
 #Variables declared outside a function are autmatically GLOBAL and available to all functions
 
