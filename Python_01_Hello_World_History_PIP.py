@@ -31,29 +31,29 @@
 # Reference Counting: Like C++ that employs pointers and references to manage objects on the heap (free store), Python also supports "reference counting".
 
 # POINTERS ?: If you have developed in C++, one of the things you will appreciate about Python is that it too makes use of passing by reference instead of value
-#             for greater efficiency and speed. Whereas C++ gives you explicit control over how this is done with Pointers and References, Pythoon hides much of
-#             the implementation of and existtence of these structures "under the hood". Though hidden from the developer, the functionality is still there, and
-#             you will find that many things you cold do in C++ development you can also do with Python. For instance, when creating GUI interfaces with tkinter,
+#             for greater efficiency and speed. Whereas C++ gives you explicit control over how this is done with Pointers and References, Python hides much of
+#             the implementation of and existence of these structures "under the hood". Though hidden from the developer, the functionality is still there, and
+#             you will find that many things you could do in C++ development, you can also do with Python. For instance, when creating GUI interfaces with tkinter,
 #             you can setup your GUI in a separate class. You can also create an inheritance hierarchy of classes to organize, encapsulate and reuse your code
-#             in the inheritance chain. You can then setup objects external to the local scope and namespace of all your different classes and initialize them to
+#             in the inheritance chain. You can then setup objects external to the local scope and namespace of all your different classes, and initialize them to
 #             "None", like C++'s "null". You may then instantiate objects from your classes that persist in memory, existing outside the scope and namespace of 
-#             static and non-static classes and functions, and then pass these objects efficently by reference both to internal methods in your classes and
-#             external functions just as you could with C++ Pointers and References. We will look at doing this in many projects to come that use tkinter GUI
-#             interfaces. This C++-like functionality is implemented in Python without C++ operators like "->" and "&" and "*". But it's there, tucked away,
-#             out of sight. Occasionally this C++-like functionality becomes visible when Python outwardly uses the dereference operator "*" to dereference objects.
+#             static and non-static classes and functions. You may then pass these objects efficently by reference both to internal methods in your classes, and
+#             external functions - just as you could with C++ Pointers and References! We will look at doing this in many projects to come that use tkinter GUI
+#             interfaces. This "C++-like" functionality is implemented in Python without C++ operators like "->" and "&" and "*". But it's still there, tucked away,
+#             out of sight. Occasionally, this C++-like functionality becomes visible when Python outwardly uses the dereference operator "*" to dereference objects.
 
-# Object-Oriented: Python provides classes, inheritance hierarchies, polymorphic structures, code reuse and exception handling. 
-#                  All the features required and expected of a truly object-oriented language.
+# Object-Oriented: Python provides classes, inheritance hierarchies, polymorphic structures, encapsulation and code-reuse structures, and exception handling. 
+#                  All the features required and expected of a truly object-oriented language exist within Python.
 
-# Structural: Python can also be adapted for Structural Programming as well.
+# Structural: Although OOP is the path to the future, Python can also be adapted for Structural Programming.
 
 # Semicolons?: You don't have to use semicolons at the end of statements in Python, as you do with C++ and Java. Neither do you have to use them in languages 
-#              like PowerShell. However, you can use them in both languages if you want to. It won't hurt anything. I use semicolons for consistency as my         
-#              personal choice. When I go back and forth from C++ and Java, which require semicolons, to languages like Python and PowerShell that do not?
+#              like PowerShell. However, you can use them in both languages, if you want to. It won't hurt anything. I use semicolons for consistency as my         
+#              personal choice. When I go back and forth from C++ and Java, which require semicolons, to languages like Python and PowerShell, that do not?
 #              Semicolons provide familiarity, consistency and organization for me. As well as the ability to put more than 1 statment of code on a single
 #              line when desired.
 
-# Development Environment: All these examples were created and tested using Anaconda 3 Python version 3.9 64-bit and Microsoft Visual Studio Code.
+# Development Environment: All these examples were created and tested using Anaconda 3 using Python version 3.9 (64-bit) and Visual Studio Code as an IDE.
 #                          BOTH are FREE dowloads. It will cost you NOTHING to learn and start developing in Python.
 
 #                          Download the latest ANACONDA: https://www.anaconda.com/
@@ -61,7 +61,6 @@
 
 
 # PIP = package manager for Python
-
 #    Link for packages = https://pypi.org/
 #    Example: Check if PIP is installed and get version  = pip --version
 #    Example: Download package - pip install camelcase
@@ -70,9 +69,9 @@
 #    Example: List packages = pip list
 
 
-#Our First Python Program
+# Our Very First Python Program!
 
-#1. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
+#Function Definition------------------------------------------------------------------------------------------------------------------------------------------
 
 def Topic_0l():
     print("\n");
@@ -86,10 +85,10 @@ def Topic_0l():
     print("   7. But there is never truly \"one way to do it\", is there?");
     print("   8. Perhaps innovation comes by constantly questioning \"Is there another way?\" For better, or for worse.");
     
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-#-----Invocations-----
+#----------Function Invocations----------
 Topic_0l();
 
 
