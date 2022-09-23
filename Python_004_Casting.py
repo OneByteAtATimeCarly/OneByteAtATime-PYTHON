@@ -1,4 +1,5 @@
-# Casting Variables: Converting variables from one data type to another 
+# Title: Casting Variables - Converting variables from one data type to another 
+# Author: C. S. Germany 01/15/2022
 
 #1. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 #   Converting variables to strings with str()
