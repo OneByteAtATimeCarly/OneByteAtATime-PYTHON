@@ -15,8 +15,8 @@
 #   Opening a file for reading. The examples below do the same thing. The options "r" for read and "t" for text are default values.
 #   So if you simply open a file without specifying any arguments it is assumed to be read-only and text. 
 def File_Access_READ_0l():
-    The_File = open("My_Data_File_Read.txt");
-    The_File = open("My_Data_File_Read.txt","rt");
+    The_File = open("Python_032_File_Access_My_Data_File_Read.txt");
+    The_File = open("Python_032_File_Access_My_Data_File_Read.txt","rt");
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
@@ -24,7 +24,7 @@ def File_Access_READ_0l():
 #2. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 #   Using the read() method to display the contents of a file
 def File_Access_READ_02():
-    The_File = open("My_Data_File_Read.txt","rt");
+    The_File = open("Python_032_File_Access_My_Data_File_Read.txt","rt");
     print(The_File.read());
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
@@ -33,7 +33,7 @@ def File_Access_READ_02():
 #3. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 #   Using the read() method to display only the first 5 chars of a file
 def File_Access_READ_03():
-    The_File = open("My_Data_File_Read.txt","rt");
+    The_File = open("Python_032_File_Access_My_Data_File_Read.txt","rt");
     print(The_File.read(5));
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
@@ -42,7 +42,7 @@ def File_Access_READ_03():
 #4. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 #   Using readline() to read an entire line of a file
 def File_Access_READ_04():
-    The_File = open("My_Data_File_Read.txt","rt");
+    The_File = open("Python_032_File_Access_My_Data_File_Read.txt","rt");
     print(The_File.readline());
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
@@ -50,7 +50,7 @@ def File_Access_READ_04():
 #5. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 #   Using readline() to read 2 lines of a file
 def File_Access_READ_05():
-    The_File = open("My_Data_File_Read.txt","rt");
+    The_File = open("Python_032_File_Access_My_Data_File_Read.txt","rt");
     print(The_File.readline());
     print(The_File.readline());
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
@@ -60,7 +60,7 @@ def File_Access_READ_05():
 #6. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 #   Reading an entire file with a loop
 def File_Access_READ_06():
-    The_File = open("My_Data_File_Read.txt","rt");
+    The_File = open("Python_032_File_Access_My_Data_File_Read.txt","rt");
 
     for x in The_File:
         print(x);
@@ -71,7 +71,7 @@ def File_Access_READ_06():
 #   Closing a file with close(). When buffering, changes to a file may not show up until you close it. It also reduces the chance that file will 
 #   be corrupted if your programs crashes while it is open.
 def File_Access_READ_07():
-    The_File = open("My_Data_File_Read.txt","rt");
+    The_File = open("Python_032_File_Access_My_Data_File_Read.txt","rt");
     print(The_File.readline());
     The_File.close();
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
@@ -85,7 +85,7 @@ def File_Access_READ_08():
     
     Current_Dir = os.getcwd(); 
     print("\nDirectory this script is running in: \"",Current_Dir,"\"",sep='');
-    File_Name = Current_Dir + "\\" + "My_Data_File_Read.txt";
+    File_Name = Current_Dir + "\\" + "Python_032_File_Access_My_Data_File_Read.txt";
 
     The_File = open(File_Name,"rt");
     
@@ -147,7 +147,7 @@ def File_Access_READ_10():
 #    "x" - Create - creates file, returns error if the file already exists
 
 def File_Access_WRITE_01():
-    The_File = open("My_Data_File_Write.txt","w");
+    The_File = open("Python_032_File_Access_My_Data_File_Write.txt","w");
 
     MESSAGE = "And as I watched him on that stage."; 
     MESSAGE = MESSAGE + "\nMy hands were clenched in fists of rage.";
@@ -158,7 +158,7 @@ def File_Access_WRITE_01():
 
     The_File.close();
 
-    The_File = open("My_Data_File_Write.txt","r");
+    The_File = open("Python_032_File_Access_My_Data_File_Write.txt","r");
 
     print("\n----------------------File Contents----------------------");
     
@@ -173,7 +173,7 @@ def File_Access_WRITE_01():
 #    Appending data to a file that already exists
 
 def File_Access_WRITE_02():
-    The_File = open("My_Data_File_Write.txt","a");
+    The_File = open("Python_032_File_Access_My_Data_File_Write.txt","a");
 
     MESSAGE = "\nAnd as the flames climbed high into the night"; 
     MESSAGE = MESSAGE + "\nto light the sacrificial rite?";
@@ -184,7 +184,7 @@ def File_Access_WRITE_02():
 
     The_File.close();
 
-    The_File = open("My_Data_File_Write.txt","r");
+    The_File = open("Python_032_File_Access_My_Data_File_Write.txt","r");
 
     print("\n----------------------File Contents----------------------");
     
@@ -200,7 +200,7 @@ def File_Access_WRITE_02():
 #    Prevent over-writing a file with the "x" argument. The code below will throw exception and generate error if file already exists.
 
 def File_Access_WRITE_03():
-    The_File = open("My_Data_File_Write.txt","x");     
+    The_File = open("Python_032_File_Access_My_Data_File_Write.txt","x");     
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
@@ -210,7 +210,7 @@ def File_Access_WRITE_03():
 
 def File_Access_REMOVE_01():
     import os;
-    os.remove("My_Data_File_Write.txt");   
+    os.remove("Python_032_File_Access_My_Data_File_Write.txt");   
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
@@ -221,8 +221,8 @@ def File_Access_REMOVE_01():
 def File_Access_REMOVE_02():
     import os;
 
-    if os.path.exists("My_Data_File_Write.txt"):
-       os.remove("My_Data_File_Write.txt");
+    if os.path.exists("Python_032_File_Access_My_Data_File_Write.txt"):
+       os.remove("Python_032_File_Access_My_Data_File_Write.txt");
     else:
        print("This file does not exist!");  
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
