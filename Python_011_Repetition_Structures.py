@@ -1,4 +1,5 @@
-# Repetition Structures: 
+# Python Repetition Structures
+# Author: C. S. Germany 01/15/2022
 
 #1. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 # A basic Python for loop
