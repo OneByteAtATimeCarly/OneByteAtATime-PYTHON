@@ -54,7 +54,7 @@
 #              line when desired.
 
 # Development Environment: All these examples were created and tested using Anaconda 3 using Python version 3.9 (64-bit) and Visual Studio Code as an IDE.
-#                          BOTH are FREE dowloads. It will cost you NOTHING to learn and start developing in Python.
+#                          BOTH are FREE downloads. It will cost you NOTHING to learn and start developing in Python.
 
 #                          Download the latest ANACONDA: https://www.anaconda.com/
 #                          Download the latest Visual Studio Code: https://code.visualstudio.com/download     
