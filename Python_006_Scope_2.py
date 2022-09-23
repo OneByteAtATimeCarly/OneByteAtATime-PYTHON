@@ -1,4 +1,5 @@
-# Scope: Using the globals() method
+# Title: Python Scope 2 - Using the globals() method
+# Author: C. S. Germany 01/15/2022
 
 #Variables declared outside a function are autmatically GLOBAL and available to all functions
 
