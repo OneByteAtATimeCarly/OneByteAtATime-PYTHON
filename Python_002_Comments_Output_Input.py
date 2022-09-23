@@ -1,4 +1,5 @@
-# Python Comment tags, console output using the print() method and console input using the input() method: 
+# Title: Python Comment tags, console output using the print() method and console input using the input() method: 
+# Author: C. S. Germany 01/15/2022
 
 # Two ways to comment out code in Python
 # 1. Single line using #
