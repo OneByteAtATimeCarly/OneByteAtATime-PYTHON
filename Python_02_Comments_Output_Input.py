@@ -12,7 +12,7 @@
 #Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 def Topic_0l():
 
-    #1. We can use the input method to retreive string data from the end-user of our console application.
+    #1. We can use the input method to retrieve string data from the end-user of our console application.
     Player_Name = input("What's your name, Player One? ");
     print("\nHello,",Player_Name,"!");
 
@@ -37,7 +37,7 @@ def Topic_0l():
     print("           Line2:  Python is fun.");
 
     #6. When lines are not desired, you can alter this with end='' 
-    print("\nExample 5: NO LINE print. No more automatic lines:");
+    print("\nExample 5: NO LINE print. No more automatic lines, would have to add with escape sequence here:");
     print("           Line1:  Hello",Player_Name,"!",end='');
     print("           Line2:  Python is fun.");    
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
