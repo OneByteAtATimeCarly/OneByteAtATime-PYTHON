@@ -1,4 +1,5 @@
-#Python F Strings (faster than older string formats)
+# Title: Python F Strings (faster than older string formats)
+# Author: C. S. Germany 01/15/2022
 
 # Link = https://realpython.com/python-f-strings/
 
