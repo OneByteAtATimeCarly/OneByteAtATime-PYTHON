@@ -25,8 +25,8 @@
 #              decision and repetition structures in your code. Programming with Python will do wonders for developers who have the bad habit of writing
 #              sloppy, poorly-indented code in other languages. :-)
 
-# Garbage Colletion: Like Java, Python performs garbage collection to asisst with memory management. So objects that are no longer used return their memory
-#                    and resources back to the system.
+# Garbage Colletion: Like Java, Python performs garbage collection to assist with memory management. So objects that are no longer used return their memory
+#                    and resources back to the system, reducing the effect of "memory leaks" that can occur with languages that don't do garbage collection.
 
 # Reference Counting: Like C++ that employs pointers and references to manage objects on the heap (free store), Python also supports "reference counting".
 
