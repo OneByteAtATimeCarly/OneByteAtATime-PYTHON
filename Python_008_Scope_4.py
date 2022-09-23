@@ -1,5 +1,5 @@
-# Scope: Using the globals keyword
-
+# Title: Python Scope 4 - Using the globals keyword
+# Author: C. S. Germany 01/15/2022
 
 #Variables declared outside a function are autmatically GLOBAL and available to all functions
 
