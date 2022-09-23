@@ -1,4 +1,5 @@
-# Scope: Different scopes and different ways of hansdling scope in Python
+# Title: Python Scope 1 - Different scopes and different ways of handling scope in Python
+# Author: C. S. Germany 01/15/2022
 
 #Variables declared outside a function are autmatically GLOBAL and available to all functions
 My_Name = "Carly Salali Germany";
