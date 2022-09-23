@@ -1,4 +1,5 @@
-# Introduction - C. S. Germany 2022
+# Title: Introduction
+# Author: C. S. Germany 01/15/2022
 
 # History: Python was originally developed by Guido van Rossum in the late 1980's and officially released in 1991. It is the offspring of 
 #          the "ABC programming language". Guido remained Python's lead developer until July 12, 2018, when he stepped down. In 2019, Python's
