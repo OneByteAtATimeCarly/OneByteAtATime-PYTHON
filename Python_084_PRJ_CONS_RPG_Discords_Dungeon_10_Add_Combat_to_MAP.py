@@ -1,5 +1,5 @@
 
-#Title: Discord's Dungeon 09 - Coding NPCs (Non-Player Characters). Emulating Basic AI and Responsiveness.
+#Title: Discord's Dungeon 10 - Coding NPCs (Non-Player Characters). Emulating Basic AI and Responsiveness.
 #Project: Discord's Dungeon - A Python Text-Based RPG
 #Author: Carly Salali Germany
 #Date: 01/19/2022
