@@ -1,5 +1,11 @@
-# Title: Python Variables and Data Types
-# Author: C. S. Germany 01/15/2022
+#Title: Python Programming 003 - Variables and Data Types
+#Author: Carly S. Germany
+#Created: 01/15/2022
+#Youtube Channel: https://www.youtube.com/c/OneByteAtATime7
+#Github Repository: https://github.com/OneByteAtATimeCarly
+#Language: Python
+#Published: OneByteAtATime © 2023
+#Version: 1.0
 
 
 #1. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -72,6 +78,26 @@ def Variables_04():
     print("   First Name:",First_Name,"\n   Middle Name:",Middle_Name,"\n   Last Name:",Last_Name);
     print("   Full Name:",Full_Name);
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+#5. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
+#Casting One Variable Data Type to Another
+MyAge = 42;
+MyTemperature = 98.5638;
+
+#print("\nMy age is",MyAge);
+#print("\nMy temperature is",MyTemperature);
+
+#Code below creates: TypeError: can only concatenate str
+#print("\nMy age is " + MyAge,sep='');
+#print("\nMy temperature is " + MyTemperature,sep='');
+
+#To concatenate int and float variables to a string we must implement type-casting
+print("\nMy age is " + str(MyAge),sep='');
+print("\nMy temperature is " + str(MyTemperature),sep='');
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 #-----Invocations-----
 Variables_01();
