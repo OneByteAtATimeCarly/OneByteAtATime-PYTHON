@@ -1,5 +1,11 @@
-# Title: Python Introduction
-# Author: C. S. Germany 01/15/2022
+#Title: Python Programming 001 - Introduction
+#Author: Carly S. Germany
+#Created: 01/15/2022
+#Youtube Channel: https://www.youtube.com/c/OneByteAtATime7
+#Github Repository: https://github.com/OneByteAtATimeCarly
+#Language: Python
+#Published: OneByteAtATime © 2023
+#Version: 1.0
 
 # History: Python was originally developed by Guido van Rossum in the late 1980's and officially released in 1991. It is the offspring of 
 #          the "ABC programming language". Guido remained Python's lead developer until July 12, 2018, when he stepped down. In 2019, Python's
@@ -56,9 +62,23 @@
 
 # Development Environment: All these examples were created and tested using Anaconda 3 using Python version 3.9 (64-bit) and Visual Studio Code as an IDE.
 #                          BOTH are FREE downloads. It will cost you NOTHING to learn and start developing in Python.
-
 #                          Download the latest ANACONDA: https://www.anaconda.com/
 #                          Download the latest Visual Studio Code: https://code.visualstudio.com/download     
+#                          Python Programming Environment Setup for Linux Ubuntu: https://www.youtube.com/watch?v=e0Ni8lwjoZE
+#                          Python Programming Environment Setup for Microsoft Windows: https://www.youtube.com/watch?v=V1S64J0uBFE
+
+
+# Python escape characters
+# \"    Double Quote
+# \'	Single Quote	
+# \n	New Line
+# \\	Backslash		
+# \r	Carriage Return	
+# \t	Tab	
+# \b	Backspace	
+# \f	Form Feed	
+# \ooo	Octal value	
+# \xhh	Hex value
 
 
 # PIP = package manager for Python
@@ -91,6 +111,26 @@ def Topic_0l():
 
 #----------Function Invocations----------
 Topic_0l();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Anaconda Troubleshooting Notes:
