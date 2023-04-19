@@ -1,5 +1,11 @@
-# Title: Python Comment tags, console output using the print() method and console input using the input() method
-# Author: C. S. Germany 01/15/2022
+#Title: Python Programming 002 - Comment tags, console output using print() and console input using input()
+#Author: Carly S. Germany
+#Created: 01/15/2022
+#Youtube Channel: https://www.youtube.com/c/OneByteAtATime7
+#Github Repository: https://github.com/OneByteAtATimeCarly
+#Language: Python
+#Published: OneByteAtATime © 2023
+#Version: 1.0
 
 # Two ways to comment out code in Python
 # 1. Single line using #
