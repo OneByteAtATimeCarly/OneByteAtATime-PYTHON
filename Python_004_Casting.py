@@ -1,5 +1,11 @@
-# Title: Casting Variables - Converting variables from one data type to another 
-# Author: C. S. Germany 01/15/2022
+#Title: Python Programming 003B - More Casting Examples
+#Author: Carly S. Germany
+#Created: 01/15/2022
+#Youtube Channel: https://www.youtube.com/c/OneByteAtATime7
+#Github Repository: https://github.com/OneByteAtATimeCarly
+#Language: Python
+#Published: OneByteAtATime © 2023
+#Version: 1.0
 
 #1. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 #   Converting variables to strings with str()
@@ -70,7 +76,7 @@ def Casting_03():
 
 
 #-----Invocations-----
-Casting_0l();
-Casting_02();
+#Casting_0l();
+#Casting_02();
 Casting_03();
 
