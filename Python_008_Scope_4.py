@@ -3,12 +3,12 @@
 
 #Variables declared outside a function are autmatically GLOBAL and available to all functions
 
+#Using the "global" keyword
 
 
 #1. Define Function----------------------------------------------------------------------------------------------------------------------------------------------
 #   Default scope
 def Scope_01():
-    
     #Declared in parent function scope
     global My_Name;
     My_Name = "Carly Salali Germany";
