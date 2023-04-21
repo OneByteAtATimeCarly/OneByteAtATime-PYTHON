@@ -7,6 +7,15 @@
 #Published: OneByteAtATime © 2023
 #Version: 1.0
 
+#Some Python Data Types
+#Numeric: int, float, complex
+#String: str
+#Sequence: list, tuple, range
+#Binary: bytes, bytearray, memoryview
+#Mapping: dict
+#Boolean: bool
+
+
 
 #1. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 # Implicitly declaring variables
@@ -21,8 +30,6 @@ def Variables_01():
     print("    y = ",y,"      TYPE:",type(y));
     print("    z = ",z,"   TYPE:",type(z));
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
-
-
 
 
 
@@ -42,13 +49,12 @@ def Variables_02():
 
 
 
-
 #3. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
 #Integer and Float variables can be used in expressions
 def Variables_03():
     
-    x = 42
-    y = 7
+    x = 42;
+    y = 7;
     z = 444;
     INT_RESULT = x * y * z;
 
@@ -61,7 +67,6 @@ def Variables_03():
     print("    x(",x,") * y(",y,") * z(",z,") = INT_RESULT(",INT_RESULT,").",sep='');
     print("    a(",a,") * b(",b,") * c(",c,") = FLOAT_RESULT(",FLOAT_RESULT,").",sep='');
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
-
 
 
 
@@ -80,30 +85,72 @@ def Variables_04():
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
+
 #5. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
-#Casting One Variable Data Type to Another
-MyAge = 42;
-MyTemperature = 98.5638;
+# Creating a TypeError - trying to CONCATENATE two variables together of different data types
+def Variables_05():
+    MyAge = 53;
+    MyTemperature = 98.5638;
 
-#print("\nMy age is",MyAge);
-#print("\nMy temperature is",MyTemperature);
-
-#Code below creates: TypeError: can only concatenate str
-#print("\nMy age is " + MyAge,sep='');
-#print("\nMy temperature is " + MyTemperature,sep='');
-
-#To concatenate int and float variables to a string we must implement type-casting
-print("\nMy age is " + str(MyAge),sep='');
-print("\nMy temperature is " + str(MyTemperature),sep='');
-
+    #Note: Code below creates a TypeError: can only concatenate str to str, not str to int
+    print("\nThe code below will create a TypeError. It tries to concatenate 2 different data types, string + int.");
+    print("This cannot be done without type-casting.");
+    print("\nMy age is " + MyAge,sep='');
+    print("\nMy temperature is " + MyTemperature,sep='');
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
+#6. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
+#Casting One Variable Data Type to Another
+def Variables_06():
+    MyAge = 53;
+    MyTemperature = 98.5638;
+
+    #A. Using print method without string concatenation, casting is automatic
+    print("\nA. Using print method without string concatenation, casting is automatic.\n");
+    print("\nMy age is",MyAge);
+    print("\nMy temperature is",MyTemperature);
+
+    #B. To concatenate int and float variables to a string we must implement type-casting
+    print("\n\nB. When concatenating strings together, both variables must be string objects.");
+    print("We can concatenate a string to an integer by CASTING the int to a str first.\n");
+    print("\nMy age is " + str(MyAge),sep='');
+    print("\nMy temperature is " + str(MyTemperature),sep='');
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+#7. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
+#Booleans
+def Variables_07():
+    My_Age = 45;
+    Am_Self_Aware = False;
+
+    print("\nBoolean data types are wither True or False.\n");
+
+    if(My_Age >= 45):
+       Am_Self_Aware = True;
+
+    if(Am_Self_Aware == True):
+       print("I achieved conciousness long after most. For most of my life I was a robot without free will.");
+    else:
+       print("I am not yet aware of myself. Most others take this for granted."); 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 #-----Invocations-----
-Variables_01();
-Variables_02();
-Variables_03();
-Variables_04();
+#Variables_01();
+#Variables_02();
+#Variables_03();
+#Variables_04();
+#Variables_05();
+#Variables_06();
+Variables_07();
+
+
 
 
 
