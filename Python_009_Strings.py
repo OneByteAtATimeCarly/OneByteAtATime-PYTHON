@@ -50,7 +50,7 @@ def Strings_03():
     
     print("\nF. Strings are accessible as substrings");
 
-    Pokemon_Song = "I wanna be the very best like no one ever was. To catch them is my real test. To train them is my cause";
+    Pokemon_Song = "I wanna be the very best like no one ever was. To catch them is my real test. To train them is my cause.";
 
     if("Pikachu" not in Pokemon_Song):
        print("   Pikachu is not here :-(");
