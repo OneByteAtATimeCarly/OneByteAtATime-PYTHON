@@ -11,14 +11,14 @@ def Repetition_Structures_0l():
     Counter = 0;
 
     for W in Main_Char_Array:
-        Counter = Counter + 1;
+        Counter += 1;
         print("   ",Counter,". ",W,sep='');
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
 
 #2. Function-----------------------------------------------------------------------------------------------------------------------------------------------------
-# A Python for loop using range() and len() to make it syntactically more like C++,Java and POSH. 
+# A Python for loop using range() and len() to make it syntactically more like C++,Java and PowerShell. 
 # Note that you can use index and subscript array syntax with this type.
 def Repetition_Structures_02():
 
@@ -60,7 +60,7 @@ def Repetition_Structures_04():
 
     while(x < len(Main_Char_Array)):
           print("   ",(x+1),". ",Main_Char_Array[x],sep='');
-          x = x + 1;
+          x += 1;
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
@@ -115,9 +115,9 @@ def Repetition_Structures_07():
     while(x < 6):
           print("   ",(x+1),". ",Main_Char_Array[x],sep='');
           if(x == 2):
-             print("   Target value triggered! Continuing with while true loop now. Skips code below so becomes infinite loop."); 
+             print("   Target value triggered! Continuing with while true loop now. Skips the increment so becomes INFINITE loop."); 
              continue;
-          x += 1;
+          x += 1; #skipped because of "continue" so value stays at 2 forever
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
@@ -160,6 +160,7 @@ def Repetition_Structures_09():
           print("   ",(Pony_Counter+1),". ",Main_Char_Array[Pony_Counter],sep='');
           #Note: We have to offset for the fencepost/off-by-1 issue by subtracting 1 from Pony_Count
           if(Pony_Counter >= (Pony_Count-1)): 
+             print("\n   Reached sentinel value! BREAKing out of while true loop now.");
              break;
           Pony_Counter += 1;
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 

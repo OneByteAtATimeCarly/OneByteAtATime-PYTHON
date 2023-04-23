@@ -1,5 +1,12 @@
 
-
+#Title: Python Programming 10 - F-Strings
+#Author: Carly S. Germany
+#Created: 01/15/2022
+#Youtube Channel: https://www.youtube.com/c/OneByteAtATime7
+#Github Repository: https://github.com/OneByteAtATimeCarly
+#Language: Python
+#Published: OneByteAtATime © 2023
+#Version: 1.0
 
 
 #FUNCTION--------------------------------------------------------------------------------------------------------------------------------------
@@ -74,7 +81,7 @@ class UNICORN:
 #FUNCTION--------------------------------------------------------------------------------------------------------------------------------------
 def New_F_Strings_2_With_Classes():
     #F Strings used with a CLASS (UNICORN class defined above)
-    New_Unicorn_Instance = UNICORN("Caly","Salali","53");
+    New_Unicorn_Instance = UNICORN("Carly","Salali","53");
 
     print("\n");
     print(f"{New_Unicorn_Instance}");
@@ -89,7 +96,6 @@ def New_F_Strings_2_With_Classes():
 
 #FUNCTION--------------------------------------------------------------------------------------------------------------------------------------
 def New_F_Strings_3_MultiLine():
-    
     First_Name = "Carly";
     Last_Name = "Salali";
     Age = 53;
@@ -100,7 +106,7 @@ def New_F_Strings_3_MultiLine():
     Concatenated_F_Strings = f"   Hello, {First_Name} {Last_Name}. " \
                              f"\n   You are {Age} years old. " \
                              f"\n   You are a {Profession}. "  \
-                             f"\n   You were a member of {Affiliation}.";
+                             f"\n   You are a member of {Affiliation}.";
 
     print(Concatenated_F_Strings);
 
@@ -137,13 +143,13 @@ def New_F_Strings_5_Escape_Sequences():
 
 
 #-----Function Invocations-----
-Old_String_Formatting_1();
+#Old_String_Formatting_1();
 #Old_String_Formatting_2();
 #New_F_Strings_1();
 #New_F_Strings_2_With_Classes();
 #New_F_Strings_3_MultiLine();
 #New_F_Strings_4_With_Dictionaries();
-#New_F_Strings_5_Escape_Sequences();
+New_F_Strings_5_Escape_Sequences();
 
 
 
