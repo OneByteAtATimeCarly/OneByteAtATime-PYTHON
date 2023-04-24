@@ -11,8 +11,9 @@ def Recursion_Recursion(Z):
 
     if(Z > 0):
        result = Z + Recursion_Recursion(Z - 1);
-       print("Inside function. Result = ",result);
+       print("Inside function after recursive call. Result = ",result);
     else:
+       print("-----------------------------------------------------------------------");
        print("Inside function. Reached ZERO.");
        print("-----------------------------------------------------------------------");
        result = 0;
@@ -23,7 +24,7 @@ def Recursion_Recursion(Z):
 
 
 #-----Invocations-----
-print("\n\nOutside function. Calling it 1st time and passing in 3.");
+print("\n\nOutside function. Calling it 1st time and passing in 3.\n");
 Recursion_Recursion(3);
 
 

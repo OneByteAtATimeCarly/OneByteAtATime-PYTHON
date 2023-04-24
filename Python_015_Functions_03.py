@@ -15,7 +15,7 @@ def Functions_04(Char_Name="Anonymous",Char_Age=42):
 #-----Invocations-----
 print("\n---------------------------------------------------------------------------------------------------------------------");
 
-print("\nD. Example 4 - Calling methos with no arguments supplies to trigger defaults:");
+print("\nD. Example 4 - Calling methods with no arguments supplies to trigger defaults:");
 print("\nI am in the main global program space now.");
 Functions_04();
 print("\nI am back in the main global program space now.");
@@ -24,7 +24,7 @@ print("\n-----------------------------------------------------------------------
 
 print("\nD. Example 4 - Passing in a string and an integer with parameters that override defaults:");
 print("\nI am in the main global program space now.");
-Functions_04("Carly Salali Germany",51);
+Functions_04("Carly Salali Germany",53);
 print("\nI am back in the main global program space now.");
 
 

@@ -21,14 +21,14 @@ def Functions_03(Meaning_of_Life,Magic_Number):
     return RESULT;
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-
+"""
 #-----Invocations-----
 print("\n---------------------------------------------------------------------------------------------------------------------");
 print("\nB. Example 2 - Passing in a string and an integer");
 print("\nI am in the main global program space now.");
-Functions_02("Carly Salali Germany",51);
+Functions_02("Carly Salali Germany",53);
 print("\nI am back in the main global program space now.");
-
+"""
 
 print("\n---------------------------------------------------------------------------------------------------------------------");
 print("\nC. Example 3 - Passing in 2 integers and returning a value");
