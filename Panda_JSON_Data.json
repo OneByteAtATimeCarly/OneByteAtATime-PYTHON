@@ -1,0 +1,34 @@
+{
+      "Health":{
+        "Fighter":9000,
+        "Paladin":180,
+        "Mage":100,
+        "Monk":250,
+        "Thief":90,
+        "Hybrid":125
+      },
+      "Atk":{
+        "Fighter":10,
+        "Paladin":8,
+        "Mage":5,
+        "Monk":12,
+        "Thief":6,
+        "Hybrid":7
+      },
+      "Def":{
+        "Fighter":10,
+        "Paladin":15,
+        "Mage":5,
+        "Monk":15,
+        "Thief":10,
+        "Hybrid":9
+      },
+      "Mag Pwr":{
+        "Fighter":100,
+        "Paladin":200,
+        "Mage":1000,
+        "Monk":500,
+        "Thief":100,
+        "Hybrid":300
+      }     
+    }
